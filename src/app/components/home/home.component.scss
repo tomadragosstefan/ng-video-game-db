@@ -11,19 +11,20 @@
         padding-top: 10px;
     }
 
-
     .mat-mdc-select{
-        background-color: #3f51b5;
+        
         border-bottom: 2px solid #fff;
         border-color: #fff !important;
         padding-right: 10px;
     }
 
+    mat-select{
+        background-color: #3f51b5;
+    }
+
     .mat-form-field-appearance-fill .mat-mdc-select-arrow-wrapper{
         position: relative;        
     }
-
-
 
     .mat-mdc-select-arrow{
         transform: translateY(10px);
@@ -42,12 +43,7 @@
        padding:0 !important;
     }
 
-    /*Translate box over select input*/
-    .cdk-overlay-connected-position-bounding-box{
-        position: fixed;
-        margin-top: 100px;
-        margin-left: 20px;
-    }
+
 
     /*Set background in box to white*/
     .mat-mdc-option,
