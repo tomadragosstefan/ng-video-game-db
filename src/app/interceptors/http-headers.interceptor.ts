@@ -12,7 +12,7 @@ export class HttpHeadersInterceptor implements HttpInterceptor{
     ): Observable<HttpEvent<any>> {
         req = req.clone({
             setParams: {
-                key: 'aeb88cbe6494433c9f579ee32987b4c6'
+                key: 'you will have to get this'
             }
         });
 
